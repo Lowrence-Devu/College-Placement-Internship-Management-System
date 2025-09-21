@@ -47,3 +47,31 @@ The project was developed as part of an academic initiative to explore Salesforc
    ```bash
    git clone https://github.com/Lowrence-Devu/College-Placement-Internship-Management-System
    cd college-placement-system
+   Authenticate with Salesforce
+sfdx auth:web:login -a PlacementOrg
+Deploy project to your org
+sfdx force:source:deploy -p force-app
+Run Apex tests (optional)
+sfdx force:apex:test:run --resultformat human
+
+
+Usage:
+Placement Officer logs in and manages companies, job postings, and drives.
+Students can register, update details, and track application status.
+Recruiters can shortlist candidates and view resumes.
+Reports & dashboards provide placement analytics (students placed, average salary, etc.).
+
+
+
+college-placement-system/
+├── force-app/
+│   ├── main/
+│   │   ├── default/
+│   │   │   ├── classes/       # Apex classes for business logic
+│   │   │   ├── triggers/      # Automation triggers
+│   │   │   ├── layouts/       # Page layouts for objects
+│   │   │   ├── objects/       # Custom objects (Student, Company, Drive)
+│   │   │   └── lwc/           # Lightning Web Components
+├── README.md
+└── .gitignore
+
