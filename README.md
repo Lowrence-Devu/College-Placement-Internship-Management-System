@@ -45,5 +45,5 @@ The project was developed as part of an academic initiative to explore Salesforc
 ## Setup and Installation
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/college-placement-system.git
+   git clone https://github.com/Lowrence-Devu/College-Placement-Internship-Management-System
    cd college-placement-system
