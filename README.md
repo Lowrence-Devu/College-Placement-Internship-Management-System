@@ -1,4 +1,4 @@
-# Salesforce Project
+# College Placement Management System (Salesforce Project)
 
 ## Table of Contents
 - [Project Overview](#project-overview)  
@@ -7,6 +7,7 @@
 - [Setup and Installation](#setup-and-installation)  
 - [Usage](#usage)  
 - [Project Structure](#project-structure)  
+- [Project History](#project-history)  
 - [Testing](#testing)  
 - [Contributing](#contributing)  
 - [License](#license)  
@@ -14,31 +15,35 @@
 ---
 
 ## Project Overview
-This Salesforce project is designed to [briefly describe the purpose of the project, e.g., manage customer relationships, automate workflows, or handle company-specific CRM requirements].  
-It leverages Salesforce’s platform to provide efficient business process automation, data management, and reporting capabilities.  
+The **College Placement Management System** is a Salesforce-based CRM solution that streamlines the end-to-end placement process in colleges.  
+It helps **placement officers, students, and recruiters** manage placement activities efficiently by providing automation, transparency, and real-time analytics.  
+
+The project was developed as part of an academic initiative to explore Salesforce CRM capabilities for real-world scenarios.  
 
 ---
 
 ## Features
-- Custom objects, fields, and page layouts  
-- Apex classes and triggers for business logic  
-- Lightning Components for UI enhancements  
-- Validation rules and workflow automation  
-- Reports and dashboards for analytics  
-- Sandbox testing for safe deployment  
+- **Student Module**: Store student details, resumes, skills, and placement status.  
+- **Company Module**: Maintain company profiles, job openings, and eligibility criteria.  
+- **Placement Drive Management**: Schedule and track campus recruitment drives.  
+- **Eligibility & Shortlisting**: Automate student shortlisting based on company criteria.  
+- **Communication**: Notifications to students about placement updates.  
+- **Reports & Dashboards**: Visualize placement statistics (offers, drives, success rate).  
 
 ---
 
 ## Technologies Used
-- **Salesforce Platform** (Lightning, Apex, Visualforce)  
-- **Salesforce CLI** for deployment and source tracking  
-- **Git** for version control  
-- **VS Code** with Salesforce Extension Pack  
+- **Salesforce CRM** (Lightning Experience)  
+- **Apex** (classes, triggers for automation)  
+- **Lightning Web Components (LWC)** for UI enhancements  
+- **Salesforce CLI** for source-driven development  
+- **VS Code** with Salesforce Extensions  
+- **GitHub** for version control  
 
 ---
 
 ## Setup and Installation
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/Lowrence-Devu/College-Placement-Internship-Management-System
-   
+   git clone https://github.com/yourusername/college-placement-system.git
+   cd college-placement-system
