@@ -95,4 +95,21 @@ The College Placement & Internship Management System is designed to streamline a
 
 1. Clone the repository:  
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Lowrence-Devu/College-Placement-Internship-Management-System.git
+   ```
+2. Open the project in VS Code with Salesforce Extensions.  
+3. Authenticate to a Dev Hub and create a scratch org.  
+4. Deploy `force-app` to your scratch org.  
+
+---
+
+## Salesforce DX Project: Next Steps
+
+Additional Salesforce DX resources:
+
+- [Development models](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models)
+- [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm)
+- [Salesforce Extensions for VS Code](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
